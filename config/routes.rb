@@ -1,4 +1,8 @@
 Myblog::Application.routes.draw do
+  get "rages/home"
+
+  get "rages/contact"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
